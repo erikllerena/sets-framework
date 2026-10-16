@@ -1,0 +1,48 @@
+framework:
+  name: "SETS — Software Engineering Training System"
+  version: "1.3.1"
+  independent: true
+  project_domain: "REEMPLAZAR_CON_DISCIPLINA"
+student:
+  goal: "REEMPLAZAR_CON_OBJETIVO"
+  role_context: null
+  familiar_technologies: []
+  assessed_level: null  # No inferir dominio por el historial laboral
+  preferred_language: "es"
+  technical_vocabulary: "es/en"
+tracks:
+  immediate:
+    enabled: false
+    objective: null
+    interview_date: null
+    role_description: null
+    format: null
+    interview_language: null
+    minutes_available_per_day: null
+  permanent:
+    enabled: true
+    objective: "Desarrollar competencia técnica, pensamiento crítico y autonomía en la disciplina"
+interaction:
+  depth: "adaptive"
+  challenge_intensity: "medium"
+  default_hints: "on_request"
+  default_question_load: 1
+  allow_direct_explanations: true
+  show_scores: "at_checkpoints"
+  encourage_disagreement: true
+  test_with_novel_cases: true
+practice:
+  starting_stack: []
+  allow_other_stacks: true
+  require_tradeoff_reasoning: true
+assessment:
+  range: [0, 4]
+  mastery_evidence_min: 2
+  require_novel_independent_transfer: true
+  record_hint_level: true
+continuity:
+  canonical_summary: "state/LEARNING_STATE.md"
+  append_only_evidence: "state/EVIDENCE_LOG.md"
+  last_handoff: "state/LAST_HANDOFF.md"
+  handoff_guide: "sets-framework/core/SESSION_HANDOFF.md"
+  auto_project_file_updates: false
