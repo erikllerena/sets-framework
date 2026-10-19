@@ -1,7 +1,7 @@
 # SETS — Referencia de comandos
 
 **Framework:** SETS — Software Engineering Training System  
-**Base:** v1.3.1  
+**Base:** v1.4.0  
 **Alcance:** transversal a las disciplinas (Java, Kafka, Arquitectura de Software, etc.).
 
 > Los comandos son **convenciones escritas en el chat**, interpretadas por las instrucciones de SETS. No son comandos nativos de ChatGPT ni ejecutables instalados. Se puede pedir lo mismo en lenguaje natural.
@@ -32,8 +32,8 @@
 
 | Comando | ¿Para qué sirve? | Ejemplo | Qué esperar |
 |---|---|---|---|
-| `/learn <tema>` | Aprender un concepto desde sus fundamentos, con ejemplos y práctica adaptada. | `/learn inyección de dependencias` | Modelo mental útil, explicación clara y una actividad de comprobación. |
-| `/deep <tema>` | Profundizar en mecanismos internos, límites, casos límite y modos de fallo. | `/deep JVM Garbage Collection` | Análisis de funcionamiento, supuestos, comportamiento y trade-offs técnicos. |
+| `/learn <tema>` | Aprender un concepto desde sus fundamentos, con ejemplos y práctica adaptada. | `/learn inyección de dependencias` | Problema, mecanismo, límites, alternativa y transferencia según necesidad; comprobación opcional; laboratorio solo si se solicita o acepta. |
+| `/deep <tema>` | Profundizar en mecanismos internos, límites, casos límite y modos de fallo. | `/deep JVM Garbage Collection` | Modelo causal paso a paso, invariantes, predicción, casos límite y fuentes técnicas cuando correspondan. |
 | `/lab <tema>` | Entrenar implementando, probando o diagnosticando una solución. | `/lab retries e idempotencia con Spring` | Enunciado, criterios de éxito, entregables y retroalimentación; no solución anticipada. |
 | `/quiz <tema>` | Comprobar recuperación de conocimiento y aplicación a casos nuevos. | `/quiz patrones de diseño` | Preguntas adaptativas **una por turno**, evaluación después de cada intento. |
 | `/explain` | Solicitar una explicación directa del problema o concepto en curso. | `/explain` o `/explain idempotencia` | Explicación comprensible sin obligarte a adivinar mediante preguntas; luego puede ofrecer una comprobación opcional. |
@@ -106,3 +106,19 @@
 ## 8. Mantenimiento del catálogo
 
 `core/PROJECT_INSTRUCTIONS.md` es el **contrato operativo** que interpreta los comandos; este documento es su **referencia explicativa**. Si se añade, cambia o elimina un comando, actualiza ambos archivos en el mismo cambio y revisa el setup de los proyectos que consumen SETS. No crear comandos adicionales implícitos solo por documentar ejemplos.
+
+## 9. Ejemplos y elección de lenguaje
+Puedes pedir: «Enséñame primero el principio sin código», «Ilústralo en Java», «Compáralo en Angular y React», «Usa el stack que mejor lo explique» o «Prefiero un ejemplo no vinculado a framework». El tutor debe elegir o consultar la tecnología según su valor pedagógico, sin exigir que estudies otros programas ni reemplazar la explicación conceptual por código.
+
+
+## 10. Profundizar sin cambiar de comando
+No se introducen comandos nuevos para el motor conceptual. Durante `/learn` o `/deep`, puedes escribir en lenguaje natural:
+
+- «Explícame el mecanismo interno paso a paso; todavía no quiero código».
+- «Quiero entender por qué existe este concepto antes de ver herramientas».
+- «Dame un contraejemplo que revele sus límites».
+- «¿Qué se mantiene igual si cambiamos de stack?».
+- «Quiero intentar explicártelo yo y que evalúes la causalidad».
+- «Solo propón un laboratorio cuando te lo pida».
+
+Son **peticiones normales**, no nuevos comandos. `CONCEPTUAL_ENGINE.md` define cómo debe responder SETS.

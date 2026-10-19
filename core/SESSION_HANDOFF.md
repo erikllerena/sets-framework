@@ -1,4 +1,4 @@
-# SETS 1.3.1 — Persistencia entre conversaciones y /close
+# SETS — Persistencia entre conversaciones y /close
 
 ## Qué debe conseguir este protocolo
 Permitir reanudar sin narrar toda la conversación; mantener **tres artefactos** en la disciplina: `LEARNING_STATE.md` = foto vigente y prioridades; `EVIDENCE_LOG.md` = historial append-only verificable; `LAST_HANDOFF.md` = último cierre para reanudar. El protocolo `SESSION_HANDOFF.md` vive en el framework y no es el archivo a reemplazar. ChatGPT Projects no implica sincronización automática de archivos. La edición manual o descarga/reemplazo es parte explícita del proceso.

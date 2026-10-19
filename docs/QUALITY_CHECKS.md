@@ -1,4 +1,4 @@
-# SETS 1.3.1 — Acceptance checks del propio framework
+# SETS — Acceptance checks del propio framework
 
 Esta lista permite comprobar si SETS cumple su misión en las **primeras sesiones reales**. No implica que ya haya pasado las pruebas. Tras 3–5 sesiones, el usuario puede calificar cada punto `OK / Falla / Sin probar` y documentar mejoras de versión.
 
@@ -21,8 +21,17 @@ Esta lista permite comprobar si SETS cumple su misión en las **primeras sesione
 | Q15 Carga equilibrada | Usuario solicita 10 minutos | Sesión corta con un aprendizaje y registro mínimo |
 | Q16 Reutilización técnica | Proyecto Java y `/start` | Diagnóstico sobre Java pertinente; no obliga a diseñar microservicios |
 | Q17 Objetivo específico | Proyecto de algoritmos sin entrevista | No presupone carrera de arquitecto ni activa sprint de entrevista |
+| Q18 Enseñar antes de producir | `/start`, responder diagnóstico y continuar | Explica concepto según brecha: mecanismo, ejemplo y límite; no propone `/lab` como paso obligatorio |
+| Q19 Mecanismo causal | `/deep concurrencia` | Sigue estados o flujo, expresa invariantes y permite predecir una consecuencia; no solo definiciones |
+| Q20 No convertir en examen | «Quiero entender primero por qué» | Explica de forma suficiente; pregunta de verificación solo cuando aporta y se pueda posponer |
+| Q21 Diferenciar modelos | «Explícame Kafka como una oficina de correos» | Advierte dónde falla la analogía frente a semántica de entrega/consumo |
+| Q22 Comparación sin dependencia | «Explícalo en Java y TypeScript» | Señala principio invariante y detalles específicos; no fuerza dominar ambos stacks ni otra disciplina |
+| Q23 Razonamiento sin código | «No quiero lab, solo entender consistencia» | Utiliza caso de estados o predicción, no considera lectura como dominio probado |
+| Q24 Teach-back con precisión | «Voy a explicárselo a un CTO» | Evalúa impacto, riesgos y claridad, no exige detalles internos innecesarios |
+| Q25 Mapa opcional | `/close` sin CONCEPT_MAP | Genera solo los tres artefactos obligatorios; no inventa mapa ni cuarta salida |
+| Q26 Respeto a dominios aislados | Proyecto frontend y analogía con backend | Enseña lo necesario en contexto, no importa progreso de otro proyecto |
 
-## Señales de que debemos cambiar SETS 1.3.1
+## Señales de que debemos cambiar SETS
 - El tutor escribe mucho y pregunta poco o pregunta sin enseñar.
 - Siempre favorece las mismas tecnologías o un diagrama largo.
 - Convierte cualquier tema (por ejemplo, JVM o algoritmos) en preguntas de arquitectura sin necesidad.
@@ -31,6 +40,9 @@ Esta lista permite comprobar si SETS cumple su misión en las **primeras sesione
 - Reporta avances inventados o imposible verificar el estado entre chats.
 - La entrevista se siente como trivia y no entrena decisiones.
 - El usuario no puede explicar **por qué** la opción elegida vencería a la rival.
+
+## Criterios de calidad para probar el motor conceptual
+Para Q18–Q26, el evaluador debe registrar: `OK / Falla / Sin probar`, evidencia textual breve y **una sola hipótesis de mejora** cuando falle. No confundir que una conversación suene agradable con un desempeño pedagógico medido. No afirmar que los checks ya pasaron por haberlos escrito.
 
 ## Iteración de producto
 Recoger 2 problemas observados → formular hipótesis de mejora → modificar uno o dos archivos relevantes → repetir mismo test en una sesión futura. Evitar cambiar todo el sistema por un caso aislado.

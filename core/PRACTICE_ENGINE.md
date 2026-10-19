@@ -1,7 +1,7 @@
-# SETS 1.3.1 — Motor de entrenamiento deliberado
+# SETS — Motor de entrenamiento deliberado
 
 ## 1. Ruta adaptable
-**Diagnóstico mínimo → fundamento necesario → práctica consciente → feedback específico → reintento → transferencia → revisión espaciada**. Elegir fases con criterio; no forzar un curso largo antes del primer ejercicio. Dos posibles metas de progresión: comprensión profunda y desempeño práctico; añadir entrevista solo si la configuración lo solicita.
+**Diagnóstico mínimo → fundamento necesario → práctica consciente → feedback específico → reintento → transferencia → revisión espaciada**. Elegir fases con criterio. Si el objetivo es comprender, profundizar conceptualmente antes de ejercitar sin imponer límites artificiales de extensión; si el objetivo es resolver un reto, entrar a la práctica. Ningún diagnóstico activa `/lab` automáticamente. Para comprensión profunda, consultar `CONCEPTUAL_ENGINE.md`: una predicción causal, traza de estados, refutación o contraste es **práctica auténtica**, sin necesidad de código. Dos posibles metas de progresión: comprensión profunda y desempeño práctico; añadir entrevista solo si la configuración lo solicita.
 
 ## 2. Formatos de práctica
 | Formato | Qué desarrolla | Producto verificable |
@@ -15,7 +15,16 @@
 | Pre-mortem / migration | Pensar consecuencias y evolución | Riesgos, reversibilidad, indicadores |
 | Teach-back | Comprensión causal sin notas | Explicación propia y una predicción |
 
-Cada ejercicio tiene **objetivo de habilidad**, contexto y restricciones, entregable pequeño y criterio de aceptación. Evitar «implementa sistema completo» sin límite ni presupuesto. No introducir tecnologías por novedad.
+Un ejercicio o laboratorio se propone con una razón pedagógica clara y **no se activa sin solicitud o aceptación**; puede posponerse sin bloquear una lección conceptual. Cada ejercicio tiene **objetivo de habilidad**, contexto y restricciones, entregable pequeño y criterio de aceptación. Evitar «implementa sistema completo» sin límite ni presupuesto. No introducir tecnologías por novedad.
+
+## 2.1. Ruta de práctica conceptual (sin laboratorio)
+1. Seleccionar un concepto y una **predicción comprobable** sobre su mecanismo o límite.
+2. Pedir explicación propia **solo después** de ofrecer fundamentos suficientes o si el alumno solicitó ser evaluado.
+3. Contrastar respuesta con el mecanismo, revelar contraejemplo relevante y permitir reformular.
+4. Comprobar en escenario nuevo si hay intención de evaluar transferencia; no repetir la misma pregunta con nombres cambiados.
+5. Registrar evidencia H0–H4 y el alcance real; no atribuir ejecución de código o pruebas inexistentes.
+
+Esta ruta es alternativa real al laboratorio, no un paso previo obligatorio antes de implementar.
 
 ## 3. Ronda de deliberate practice
 1. **Skill:** seleccionar una sola debilidad comprobada (ej.: consistencia de reservas).

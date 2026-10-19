@@ -21,3 +21,6 @@ La evidencia es informativa, pero no garantiza que un calendario o técnica func
 
 ## Implementación en SETS
 Estas técnicas orientan `INTERACTION_ENGINE.md` y `PRACTICE_ENGINE.md`; no cambian el contrato de una pregunta sustantiva por turno ni justifican volver cada explicación un examen.
+
+## Comprensión basada en mecanismos (SETS 1.4.0)
+Además de recuperar información, construir **explicaciones causales** y comprobar predicciones puede ayudar a revelar modelos mentales incompletos. El uso de analogías debe incluir condiciones en que no son exactas. Estas son **decisiones didácticas del framework**, no una garantía de que una secuencia concreta produzca siempre mejores resultados. Ver `core/CONCEPTUAL_ENGINE.md` para la práctica operativa; la evaluación de evidencia sigue en `core/ASSESSMENT_ENGINE.md`.

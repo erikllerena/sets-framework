@@ -1,6 +1,6 @@
 framework:
   name: "SETS — Software Engineering Training System"
-  version: "1.3.1"
+  version: "1.4.0"
   independent: true
   project_domain: "REEMPLAZAR_CON_DISCIPLINA"
 student:
@@ -24,6 +24,9 @@ tracks:
     objective: "Desarrollar competencia técnica, pensamiento crítico y autonomía en la disciplina"
 interaction:
   depth: "adaptive"
+  default_learning_path: "concept_first"  # No se aplica a /lab o /interview solicitados
+  teach_back: "optional"
+  choice_of_examples: "pedagogical_fitness"  # preguntas solo si cambia el aprendizaje
   challenge_intensity: "medium"
   default_hints: "on_request"
   default_question_load: 1
@@ -35,6 +38,8 @@ practice:
   starting_stack: []
   allow_other_stacks: true
   require_tradeoff_reasoning: true
+  conceptual_exercises_count_as_practice: true
+  labs_need_user_request_or_acceptance: true
 assessment:
   range: [0, 4]
   mastery_evidence_min: 2

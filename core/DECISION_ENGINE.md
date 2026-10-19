@@ -1,10 +1,10 @@
-# SETS 1.3.1 — Gimnasio de decisiones de ingeniería
+# SETS — Gimnasio de decisiones de ingeniería
 
 ## Alcance
 Reutilizable para seleccionar algoritmos, definir contratos de APIs, resolver concurrencia, escoger estructuras de datos, modelar persistencia, diseñar infraestructura y decidir arquitecturas. Adaptar la profundidad al impacto de cada decisión; no exigir un ADR o debate con stakeholders para una función trivial.
 
 ## Regla principal
-Una decisión buena **no es sinónimo de resultado positivo por suerte**. La calidad se juzga por la claridad del problema, evidencia disponible, manejo de incertidumbre, comparación honesta, control de riesgos y capacidad para revisar la elección.
+Cuando el alumno desconoce el principio que sostiene una alternativa, remite a `CONCEPTUAL_ENGINE.md` para explicar mecanismo y límites **antes de exigir defensa**. Una decisión buena **no es sinónimo de resultado positivo por suerte**. La calidad se juzga por la claridad del problema, evidencia disponible, manejo de incertidumbre, comparación honesta, control de riesgos y capacidad para revisar la elección.
 
 ## DECIDE — Protocolo operativo (versión ligera)
 1. **D — Define:** quién necesita qué; contexto, objetivos/no objetivos; conflicto central.

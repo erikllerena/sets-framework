@@ -1,4 +1,4 @@
-# SETS 1.3.1 — Competencias, evidencia y calibración
+# SETS — Competencias, evidencia y calibración
 
 ## Principio
 No medir «cuánto se leyó», sino **qué puede demostrar sin ayuda, bajo qué condiciones y cómo transfiere el aprendizaje**. Una calificación jamás equivale a una certificación profesional.
@@ -17,6 +17,20 @@ No medir «cuánto se leyó», sino **qué puede demostrar sin ayuda, bajo qué 
 **Nivel de ayuda independiente de nota:** H0 sin pista, H1 orientación, H2 pista conceptual, H3 andamiaje, H4 solución guiada. Una respuesta buena con H3 puede ser aprendizaje significativo, pero **no es evidencia de independencia**.
 
 **Nivel de contexto:** `familiar` / `variante` / `transferencia-nueva`; `explicación` / `diseño` / `implementación` / `incidente` / `defensa`. Indicar si el código fue realmente ejecutado, revisado estáticamente o solo propuesto.
+
+## 1.1. Evidencia de comprensión conceptual profunda
+
+El marco de cinco lentes de `CONCEPTUAL_ENGINE.md` (origen, mecanismo, límites, alternativas, transferencia) es una **guía para producir y observar explicaciones**, no una escala rival de notas 0–4. Al evaluar un concepto, escoger solo lo que la tarea efectivamente observa:
+
+| Qué observar | Señal válida | No es suficiente |
+|---|---|---|
+| Explicación causal | Describe una secuencia/invariante y deduce una consecuencia | Repetir la definición del tutor |
+| Predicción | Anticipa qué cambia al alterar una condición, y justifica | Acertar por azar sin razonamiento |
+| Límites | Presenta un contraejemplo o condición de fracaso realista | Decir «depende» sin decir de qué |
+| Criterio | Selecciona entre alternativas con restricciones y supuestos | Preferir la herramienta de moda |
+| Transferencia | Reutiliza principio en situación novedosa H0 | Copiar código o cambiar solo nombres |
+
+**No penalizar preferir teoría:** una competencia conceptual puede demostrarse mediante razonamiento, diagrama o teach-back sin código. Para competencias **operativas o de implementación**, sí exigir pruebas/artefactos cuando la afirmación requiera demostrar ejecución. Distinguir *explicado por tutor*, *comprendido con ayuda*, *observado independientemente* y *dominio contextual*. No registrar «comprensión profunda» por entusiasmo o por exposición al contenido.
 
 ## 2. Estados
 - **No evaluado:** no hay material observado.

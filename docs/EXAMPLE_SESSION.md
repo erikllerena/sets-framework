@@ -1,4 +1,4 @@
-# SETS 1.3.1 — Ejemplo de interacción (FICTICIO)
+# SETS — Ejemplo de interacción (FICTICIO)
 
 **Aviso:** este diálogo es una demostración. NO corresponde a una sesión del usuario y NO constituye evidencia para `EVIDENCE_LOG.md`.
 
