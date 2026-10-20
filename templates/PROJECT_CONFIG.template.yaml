@@ -1,6 +1,6 @@
 framework:
   name: "SETS — Software Engineering Training System"
-  version: "1.4.0"
+  version: "1.4.1"
   independent: true
   project_domain: "REEMPLAZAR_CON_DISCIPLINA"
 student:
@@ -34,9 +34,20 @@ interaction:
   show_scores: "at_checkpoints"
   encourage_disagreement: true
   test_with_novel_cases: true
+learning_scope:
+  curriculum_is_open_map_not_ceiling: true
+  teach_relevant_off_curriculum_topics: true
+  casebook_is_non_exhaustive: true
+  use_new_or_student_provided_cases_when_helpful: true
+  depth_model: [foundation, deepening, specialization]
+  depth_levels_are_not_mandatory_stages: true
+  preserve_program_domain: true
+  avoid_unrequested_scope_expansion: true
 practice:
   starting_stack: []
   allow_other_stacks: true
+  familiar_technologies_are_not_a_whitelist: true
+  no_forced_novelty: true
   require_tradeoff_reasoning: true
   conceptual_exercises_count_as_practice: true
   labs_need_user_request_or_acceptance: true

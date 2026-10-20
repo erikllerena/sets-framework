@@ -3,6 +3,7 @@
 **Estado inicial:** sin evidencias. Registro append-only para cada disciplina. No contabilizar ejemplos ficticios ni respuestas del tutor como logros.
 
 ## Reglas
+
 - ID `EV-AAAAMMDD-NN` único por repositorio, asociado a `session_id = SETS-AAAAMMDD-NN`.
 - Verificar identificadores ya usados antes de proponer nuevos.
 - Registrar ayuda H0–H4, tipo de ejercicio, resultado **observado** y límites.
@@ -11,7 +12,9 @@
 ## Plantilla de entrada (no corresponde a evidencia real)
 
 ```text
+
 ### EV-AAAAMMDD-NN
+
 - Sesión: SETS-AAAAMMDD-NN
 - Fecha:
 - Módulo / competencia:
@@ -25,4 +28,5 @@
 ```
 
 ## Evidencias observadas
+
 Ninguna todavía.

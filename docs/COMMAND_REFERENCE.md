@@ -1,7 +1,7 @@
 # SETS — Referencia de comandos
 
 **Framework:** SETS — Software Engineering Training System  
-**Base:** v1.4.0  
+**Base:** v1.4.1  
 **Alcance:** transversal a las disciplinas (Java, Kafka, Arquitectura de Software, etc.).
 
 > Los comandos son **convenciones escritas en el chat**, interpretadas por las instrucciones de SETS. No son comandos nativos de ChatGPT ni ejecutables instalados. Se puede pedir lo mismo en lenguaje natural.
@@ -108,10 +108,12 @@
 `core/PROJECT_INSTRUCTIONS.md` es el **contrato operativo** que interpreta los comandos; este documento es su **referencia explicativa**. Si se añade, cambia o elimina un comando, actualiza ambos archivos en el mismo cambio y revisa el setup de los proyectos que consumen SETS. No crear comandos adicionales implícitos solo por documentar ejemplos.
 
 ## 9. Ejemplos y elección de lenguaje
+
 Puedes pedir: «Enséñame primero el principio sin código», «Ilústralo en Java», «Compáralo en Angular y React», «Usa el stack que mejor lo explique» o «Prefiero un ejemplo no vinculado a framework». El tutor debe elegir o consultar la tecnología según su valor pedagógico, sin exigir que estudies otros programas ni reemplazar la explicación conceptual por código.
 
 
 ## 10. Profundizar sin cambiar de comando
+
 No se introducen comandos nuevos para el motor conceptual. Durante `/learn` o `/deep`, puedes escribir en lenguaje natural:
 
 - «Explícame el mecanismo interno paso a paso; todavía no quiero código».

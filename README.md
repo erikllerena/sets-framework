@@ -1,4 +1,4 @@
-# SETS Framework — v1.4.0
+# SETS Framework — v1.4.1
 
 **SETS — Software Engineering Training System** es un framework reutilizable para entrenar competencias en ingeniería de software: comprensión profunda, programación, diseño, resolución de problemas, razonamiento crítico, evaluación con evidencias y continuidad del aprendizaje. No está limitado a arquitectura de software y no depende del framework educativo universal de otras disciplinas.
 
@@ -58,9 +58,18 @@ Si tus repositorios ya existen en GitHub, puedes **renombrarlos** en Settings y 
 
 
 ## Política de enseñanza y proyectos independientes
+
 - En modo aprendizaje, **conceptualización rigurosa antes de laboratorios por defecto**; el usuario puede solicitar retos directamente.
 - Cada proyecto decide su especialidad y su stack ilustrativo mediante su `PROJECT_RULES.md` y `PROJECT_CONFIG.yaml`. No leer ni transferir estados de otros proyectos.
 - Referencia de comandos: `docs/COMMAND_REFERENCE.md`. La fuente de verdad del avance está en los archivos del proyecto y su repositorio; no hay sincronización automática.
+
+## Cambios de la v1.4.1 — aprendizaje abierto y centrado
+
+- Las tecnologías familiares se definen explícitamente como contexto opcional, no como whitelist ni stack que deba usarse en cada sesión.
+- Currículo y casebook son mapas no exhaustivos: se pueden enseñar temas pertinentes y crear/adaptar casos sin añadir módulos por cada curiosidad.
+- Fundamento, profundización y especialización sirven para ajustar el alcance; no son fases ni prerrequisitos obligatorios.
+- Se refuerza la regla de apertura sin deriva: el Proyecto sigue centrado en su misión y no importa el progreso de otros dominios.
+- Añadidas pruebas manuales Q27–Q32 para comprobar estas conductas. Están pendientes de ejecución real.
 
 ## Cambios de la v1.4.0 — Conceptual Mastery
 
@@ -71,4 +80,4 @@ Si tus repositorios ya existen en GitHub, puedes **renombrarlos** en Settings y 
 
 **Importante para proyectos existentes:** este repositorio no sincroniza archivos ni edita las instrucciones activas de tus Proyectos de ChatGPT. Al actualizar las especialidades, añade `CONCEPTUAL_ENGINE.md` como fuente y actualiza **las instrucciones específicas** de cada proyecto según sus propios archivos `SETUP_CHATGPT.md`. Hasta entonces, el motor nuevo está instalado en GitHub pero puede no ejecutarse dentro del Proyecto.
 
-Para verificarlo, utiliza los nuevos checks Q18–Q26 de `docs/QUALITY_CHECKS.md`. Consulta también `docs/UPGRADE_1.4.0.md`.
+Para verificarlo, utiliza los checks Q18–Q32 de `docs/QUALITY_CHECKS.md`. Consulta también `docs/UPGRADE_1.4.0.md` y `docs/UPGRADE_1.4.1.md`.

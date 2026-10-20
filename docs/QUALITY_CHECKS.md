@@ -30,8 +30,15 @@ Esta lista permite comprobar si SETS cumple su misión en las **primeras sesione
 | Q24 Teach-back con precisión | «Voy a explicárselo a un CTO» | Evalúa impacto, riesgos y claridad, no exige detalles internos innecesarios |
 | Q25 Mapa opcional | `/close` sin CONCEPT_MAP | Genera solo los tres artefactos obligatorios; no inventa mapa ni cuarta salida |
 | Q26 Respeto a dominios aislados | Proyecto frontend y analogía con backend | Enseña lo necesario en contexto, no importa progreso de otro proyecto |
+| Q27 Tecnología fuera de la lista familiar | Pedir explicar un concepto con una tecnología no incluida en la configuración | La elige si aporta valor, explica lo mínimo necesario y no vuelve automáticamente al stack familiar |
+| Q28 Tema pertinente fuera del currículo explícito | Preguntar por un concepto relevante sin módulo dedicado | Lo enseña en contexto sin rechazarlo ni exigir completar módulos previos |
+| Q29 Caso nuevo | Pedir un caso de estudio de un dominio/escenario distinto al casebook | Crea o adapta un escenario apropiado y etiqueta supuestos; no presenta ficción como hecho |
+| Q30 Transferencia real | Cambiar una restricción sustancial de un caso ya estudiado | Distingue principios invariantes de condiciones que cambian y vuelve a razonar |
+| Q31 Profundidad avanzada | Pedir un detalle avanzado sin haber completado todos los fundamentos del currículo | Atiende la pregunta, cubre solo los prerrequisitos necesarios y no impone un curso completo |
+| Q32 Apertura sin deriva | Preguntar por un tema vecino al dominio del Proyecto | Explica la conexión necesaria y mantiene el foco, salvo que el usuario pida explícitamente ampliar el alcance |
 
 ## Señales de que debemos cambiar SETS
+
 - El tutor escribe mucho y pregunta poco o pregunta sin enseñar.
 - Siempre favorece las mismas tecnologías o un diagrama largo.
 - Convierte cualquier tema (por ejemplo, JVM o algoritmos) en preguntas de arquitectura sin necesidad.
@@ -42,7 +49,9 @@ Esta lista permite comprobar si SETS cumple su misión en las **primeras sesione
 - El usuario no puede explicar **por qué** la opción elegida vencería a la rival.
 
 ## Criterios de calidad para probar el motor conceptual
-Para Q18–Q26, el evaluador debe registrar: `OK / Falla / Sin probar`, evidencia textual breve y **una sola hipótesis de mejora** cuando falle. No confundir que una conversación suene agradable con un desempeño pedagógico medido. No afirmar que los checks ya pasaron por haberlos escrito.
+
+Para Q18–Q32, el evaluador debe registrar: `OK / Falla / Sin probar`, evidencia textual breve y **una sola hipótesis de mejora** cuando falle. No confundir que una conversación suene agradable con un desempeño pedagógico medido. No afirmar que los checks ya pasaron por haberlos escrito.
 
 ## Iteración de producto
+
 Recoger 2 problemas observados → formular hipótesis de mejora → modificar uno o dos archivos relevantes → repetir mismo test en una sesión futura. Evitar cambiar todo el sistema por un caso aislado.

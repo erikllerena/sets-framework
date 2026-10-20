@@ -6,6 +6,7 @@
 > entre `[...]`; elimina instrucciones y ejemplos antes de guardar un handoff real.
 
 ## 1. Identificación
+
 - **session_id:** `[SETS-AAAAMMDD-NN]`
 - **Fecha de cierre:** `[AAAA-MM-DD]`
 - **Disciplina / repositorio:** `[identificador]`
@@ -13,11 +14,13 @@
 - **Versión del framework:** `[versión realmente utilizada]`
 
 ## 2. Objetivo y trabajo realmente realizado
+
 - **Objetivo de la sesión:** `[objetivo explícito]`
 - **Realizado:** `[actividad, reto o tema realmente tratado]`
 - **Pendiente o no ejecutado:** `[elementos que NO se hicieron; o «Ninguno»]`
 
 ## 3. Resultado del aprendizaje
+
 - **Aprendizajes principales (máximo 3):** `[solo conclusiones respaldadas por la sesión]`
 - **Fortalezas observadas:** `[hechos observables, o «Sin evidencia suficiente»]`
 - **Vacíos / errores relevantes (máximo 2):** `[o «No evaluados»]`
@@ -36,11 +39,13 @@
 > anteriores como nuevas. Si no se pueden verificar IDs, indicar el conflicto y solicitar validación.
 
 ## 5. Decisiones y artefactos
+
 - **Decisiones tomadas:** `[decisión + argumento esencial, o «Ninguna»]`
 - **Artefactos reales:** `[rutas de ADR, código, diagrama, laboratorio, etc., o «Ninguno»]`
 - **Estado de verificación:** `[ejecutado / revisado / propuesto / no ejecutado]`
 
 ## 6. Continuidad y próxima sesión
+
 - **Último `session_id` que debe quedar integrado en `LEARNING_STATE.md`:** `[session_id de esta sesión, una vez persistido]`
 - **Tema o competencia para continuar:** `[prioridad]`
 - **Siguiente acción concreta:** `[un ejercicio/desafío específico]`
@@ -49,6 +54,7 @@
 - **Bloqueos o datos a confirmar:** `[o «Ninguno»]`
 
 ## 7. Persistencia verificada
+
 - **`state/LAST_HANDOFF.md`:** `[propuesto / guardado y verificado / desconocido]`
 - **`state/LEARNING_STATE.md`:** `[propuesto / guardado y verificado / desconocido]`
 - **`state/EVIDENCE_LOG.md`:** `[sin cambios / delta propuesto / guardado y verificado / desconocido]`
